@@ -1,0 +1,40 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<html>
+
+<head>
+    <link rel="shortcut icon" href="{{static_url('favicon.ico')}}" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" </head>
+    <link rel="stylesheet" href="{{static_url('css/main.css')}}">
+
+
+    <body>
+
+        <div class="container">
+            <h3 class=" text-center">Messaging</h3>
+            <div class="messaging">
+                <div class="inbox_msg">
+
+                    <div class="mesgs">
+                        <div class="msg_history" id="messages">
+                        </div>
+                        <div class="type_msg">
+                            <div class="input_msg_write">
+                                <form onsubmit="return sendMessage()">
+                                    <input class="write_msg" placeholder="Type a message" id="message" type="text" style="width: 90%;"><button class="msg_send_btn" type="submit" width=10%><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="{{static_url('js/socket.js')}}"></script>
+
+
+</html>
