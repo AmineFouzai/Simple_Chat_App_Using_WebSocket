@@ -24,3 +24,6 @@
  </tr>
 </table>
 <hr>
+<h1>#Usage:</h1>
+<h4>-you can try the app in this link <a href="https://chatsrvv.herokuapp.com">https://chatsrvv.herokuapp.com</a></h4>
+<h4>-pass in the user name send the link to friend do the same and send back messages to each other </h4>
