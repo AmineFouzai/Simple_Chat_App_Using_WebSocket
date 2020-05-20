@@ -1,4 +1,4 @@
-var ws = new WebSocket("wss://chatsrvv.herokuapp.com/websocket");
+var ws = new WebSocket("ws://+window.location.host + window.location.pathname +websocket");
 
 
 function sendMessage() {
